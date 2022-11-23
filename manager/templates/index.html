@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+<section class="hero-section overflow-hidden">
+		<div class="hero-slider owl-carousel">
+			<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="{% static 'img/poster1.png' %}">
+				<div class="container">
+					<h2>Game on!</h2>
+					<p></p>
+					<a href="#" class="site-btn">Download Tại {logo chợ}</a> <p> </p>
+					<a href="#" class="site-btn">Download Tại {logo chợ}</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end-->
+
+
+	<!-- Intro section -->
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="intro-text-box text-box text-white">
+						<div class="top-meta">28.11.22  /  in <a href="" style="color: #D8AC9C"><b>SupaGame</b></a> &  <a href="" style="color: #E8EAE6"><b>LMóue</b></a> </div>
+						<h3>1. Một tựa Game mô phỏng Flappy Bird!</h3>
+						<p>
+	Tiếp nối Flappy Bird, tựa game từng làm mưa làm gió ở thị trường Việt Nam, Sleepy Gurl chắc chắn sẽ gây ấn tượng cho người chơi với Gameplay đơn giản mà hấp dẫn, kèm theo các nhân vật mới và những rắc rối mới!</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-text-box text-box text-white">
+						<div class="top-meta">28.11.22  /  in <a href="" style="color: #D8AC9C"><b>SupaGame</b></a> &  <a href="" style="color: #E8EAE6"><b>LMóue</b></a> </div>
+						<h3>2.Không có người thắng hay người thua. Hãy cố gắng đạt được số điểm cao nhất!</h3>
+						<p>Vì là một Game theo lối chơi vô tận, bạn sẽ không cần phải lo lắng quá nhiều về việc mình không phải là một người chơi giỏi. Dù bạn có đạt được bao nhiêu điểm, sau khi bấm nút "Chơi lại", mọi người đều sẽ bắt đầu chạy Deadline từ con số 0. Vì vậy, khi đạt được điểm cao, hãy chụp lấy khoảnh khắc ấy và chia sẻ với mọi người!</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-text-box text-box text-white">
+						<div class="top-meta">28.11.22  /  in <a href="" style="color: #D8AC9C"><b>SupaGame</b></a> &  <a href="" style="color: #E8EAE6"><b>LMóue</b></a> </div>
+						<h3>3. Nhiều vật phẩm và nhiều chướng ngại vật mới!</h3>
+						<p>Sleepy Gurl không chỉ là bản remake của Flappy Bird, mà nó còn chứa đựng trong đó một bối cảnh khác, khi các nhân vật chính phải thật chăm chỉ làm việc. Tuy nhiên, cuộc sống đâu bao giờ vỏn vẹn một màu hồng. Trong quá trình chạy Deadline, sẽ có xuất hiện các chướng ngại vật khác làm cản trở người chơi. Nhưng hãy yên tâm, bên cạnh đó còn có các vật phẩm hỗ trợ, giúp bạn vượt qua các chướng ngại vật ấy.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Intro section end -->
+
+
+
+	<!-- Intro section -->
+	<section class="intro-video-section set-bg d-flex align-items-end " data-setbg="{% static 'img/trailer.png' %} ">
+
+		<a href="{% static 'vid/trailer.mp4' %}" class="video-play-btn video-popup"><img src="{% static 'img/icons/solid-right-arrow.png' %}" alt="#"></a>
+		<div class="container">
+			<div class="video-text">
+				<h2>TRAILER OF THE GAME</h2>
+				<p style="color: white;">Tựa Game mô phỏng dựa theo game Flappy Bird nhưng được tái sinh thành một phiên bản và cốt truyện hoàn toàn mới</p>
+			</div>
+		</div>
+	</section>
+	<!-- Intro section end -->
+
+
+	<!-- Featured section -->
+	<section class="featured-section">
+		<div class="featured-bg set-bg" data-setbg="{% static 'img/coming.gif' %}"></div>
+		<div class="featured-box">
+			<div class="text-box">
+				<div class="top-meta">28.11.22  /  in <a href="" style="color: #D8AC9C"><b>SupaGame</b></a> &  <a href="" style="color: #9E9D89"><b>LMóue</b></a> </div>
+				<h3>SLEEPY GURL Tựa Game Hồi Sinh Lại Huyền Thoại <a href="https://flappybird.io/" target="_blank" style="color: #557153">FLAPPY BIRD</a></h3>
+				<p >Một sản phẩm game của team DT , Sleepy Gurl bản cải tiến của Flappy Bird sắp được ra mắt trên chợ với thiết kế giao diện mới lạ
+Sleepy gurl là tựa game hành động chơi trên máy tính. Thao tác chơi game vô cùng  đơn giản.  Khi chơi game người chơi cần khéo léo điều khiển nhân vật vượt qua các assignment để không bị rớt môn. Bạn sẽ được trải nghiệm cảm giác chạy deadline không hề nhàm chán với các chướng ngại vật và vật phẩm cũng như các tính năng vô cùng độc đáo.</p>
+
+			</div>
+		</div>
+	</section>
+	<!-- Featured section end-->
+
+
+
+	<!-- Newsletter section -->
+
+{% endblock content %}
